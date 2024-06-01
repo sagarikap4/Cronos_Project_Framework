@@ -70,6 +70,8 @@ public class ListImpClass implements ITestListener , ISuiteListener{
 		TakesScreenshot eDriver = (TakesScreenshot) BaseClass.sdriver;
 		String filePath = eDriver.getScreenshotAs(OutputType.BASE64);
 		
+		
+		
 	    String time = 	new Date().toString().replace(" ", "_").replace(":", "_");
 		test.addScreenCaptureFromBase64String(filePath, testNAme+"_"+time);
 		 test.log(Status.FAIL, result.getMethod().getMethodName()+"==> FAILED <====");
