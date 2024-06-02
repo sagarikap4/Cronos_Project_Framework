@@ -1,24 +1,30 @@
 package com.comcast.crm.objectrepositoryutility;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class CampaignEventsPage {
 	/**
 	 * This page contains Campaigneventpage
 	 */
 
+	public CampaignEventsPage(WebDriver driver) {
+		PageFactory.initElements(driver,this);
+	}
+	
 	
 	@FindBy(xpath = "//input[@name='subject']")
 	private WebElement eventname;
 	
-	@FindBy(xpath = "//img[@id='jscal_trigger_date_start']")
+	@FindBy(name = "date_start")
 	private WebElement eventstartdate;
 	
-	@FindBy(xpath = "//img[@id='jscal_trigger_due_date']")
+	@FindBy(name = "due_date")
     private WebElement eventenddate;
 	
-	@FindBy(xpath = "(//input[@title='Save [Alt+S]'])[1]")
+	@FindBy(xpath = "(//input[@title='Save [Alt+S]'])[2]")
 	private WebElement savebutton;
 
 	

@@ -36,8 +36,10 @@ public class JavaUtility {
 	 * get the TAT date based on YYYY-DD-MM format
 	 * @return
 	 */
-	public String getRequriedDateYYYYDDMM(int days) {		 
+	public String getRequriedDateYYYYDDMM(int days) {
+		Date dateObj = new Date();
 		SimpleDateFormat sim = new SimpleDateFormat("yyyy-MM-dd");
+		String date = sim.format(dateObj);
 				
 	    Calendar cal = sim.getCalendar();
 	    cal.add(Calendar.DAY_OF_MONTH,days);
