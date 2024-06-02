@@ -1,4 +1,4 @@
-package com.CRONOS.OpportunitiesModule;
+package com.cronos.OpportunitiesModule;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;

@@ -1,4 +1,4 @@
-package com.CRONOS.OpportunitiesModule;
+package com.cronos.OpportunitiesModule;
 
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;

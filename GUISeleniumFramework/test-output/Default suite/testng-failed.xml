@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.CRONOS.OpportunitiesModule.CampaignSearchDeleteTest">
+      <class name="com.cronos.OpportunitiesModule.CreateCampaignTest">
         <methods>
           <include name="configBM"/>
+          <include name="createCampaign"/>
           <include name="configAM"/>
-          <include name="CampaignSearchDelete"/>
           <include name="configBS"/>
           <include name="configBC"/>
           <include name="configAS"/>
           <include name="configAC"/>
         </methods>
-      </class> <!-- com.CRONOS.OpportunitiesModule.CampaignSearchDeleteTest -->
+      </class> <!-- com.cronos.OpportunitiesModule.CreateCampaignTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -29,7 +29,18 @@ public class CampaignPage {
 	@FindBy(name = "submit")
 	private WebElement searchnowbutton;
 	
+	@FindBy(linkText = "del")
+	private WebElement dellink;
+	
 
+
+	public WebElement getSearchindropdown() {
+		return searchindropdown;
+	}
+
+	public WebElement getDellink() {
+		return dellink;
+	}
 
 	public WebElement getCampaignicon() {
 		return campaignicon;
@@ -39,9 +50,7 @@ public class CampaignPage {
 		return searchtextfield;
 	}
 
-	public WebElement getSerachindropdown() {
-		return searchindropdown;
-	}
+	
 
 	public WebElement getSearchnowbutton() {
 		return searchnowbutton;

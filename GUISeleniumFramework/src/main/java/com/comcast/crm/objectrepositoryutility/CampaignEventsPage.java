@@ -13,8 +13,11 @@ public class CampaignEventsPage {
 	public CampaignEventsPage(WebDriver driver) {
 		PageFactory.initElements(driver,this);
 	}
+	
+	
 	@FindBy(xpath = "//input[@name='subject']")
 	private WebElement eventname;
+	
 	
 	@FindBy(xpath = "//input[@name='date_start']")
 	private WebElement eventstartdate;
@@ -22,7 +25,7 @@ public class CampaignEventsPage {
 	@FindBy(xpath = "//input[@name='due_date']")
     private WebElement eventenddate;
 	
-	@FindBy(xpath = "(//input[@title='Save [Alt+S]'])[1]")
+	@FindBy(xpath = "(//input[@title='Save [Alt+S]'])[2]")
 	private WebElement savebutton;
 
 	

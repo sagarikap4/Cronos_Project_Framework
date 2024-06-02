@@ -1,4 +1,4 @@
-package com.CRONOS.OpportunitiesModule;
+package com.cronos.OpportunitiesModule;
 
 public class CreateProductWithVendor {
 

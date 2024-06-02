@@ -18,11 +18,20 @@ public class CampaignInformationPage {
 	@FindBy(xpath = "//span[@class='dvHeaderText']")
 	private WebElement verifycampaignheadermsg;
 	
+	@FindBy(id = "mouseArea_Campaign Name")
+	private WebElement verifycampaignname;
+	
 	@FindBy(linkText = "Add Event")
 	private WebElement addevents;
 	
-	@FindBy(id = "mouseArea_Campaign Name")
-	private WebElement verifycampaignname;
+	public WebElement getAddevents() {
+		return addevents;
+	}
+
+	public WebElement getVerifycampaignname() {
+		return verifycampaignname;
+	}
+
 
 	public WebElement getVerifycampaignheadermsg() {
 		return verifycampaignheadermsg;
