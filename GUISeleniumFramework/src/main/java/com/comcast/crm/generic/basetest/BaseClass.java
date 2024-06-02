@@ -21,7 +21,7 @@ import com.comcast.crm.generic.fileutility.ExcelUtility;
 import com.comcast.crm.generic.fileutility.FileUtility;
 import com.comcast.crm.generic.webdriverutility.JavaUtility;
 import com.comcast.crm.generic.webdriverutility.UtilityClassObject;
-
+import com.comcast.crm.generic.webdriverutility.WebDriverUtility;
 import com.comcast.crm.objectrepositoryutility.HomePage;
 import com.comcast.crm.objectrepositoryutility.LoginPage;
 
@@ -33,6 +33,7 @@ public class BaseClass {
 	public FileUtility fLib = new FileUtility();
 	public ExcelUtility eLib = new ExcelUtility();
 	public JavaUtility jLib = new JavaUtility();
+	public WebDriverUtility wLib=new WebDriverUtility();
 	public  WebDriver driver = null;
 	public  static WebDriver sdriver = null;
 
@@ -73,6 +74,7 @@ public class BaseClass {
 			ChromeOptions chromeOptions = new ChromeOptions();
 			driver = new ChromeDriver(chromeOptions);
 		}
+		driver.manage().window().maximize();
 		sdriver = driver;
 		UtilityClassObject.setDriver(driver);
 	    }

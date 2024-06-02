@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+<<<<<<< HEAD
+  <suite started-at="2024-06-02T11:17:13Z" name="Default suite" finished-at="2024-06-02T11:17:25Z" duration-ms="12299">
+    <groups>
+    </groups>
+    <test started-at="2024-06-02T11:17:13Z" name="Default test" finished-at="2024-06-02T11:17:25Z" duration-ms="12299">
+      <class name="com.cronos.campaignmodule.CreatingCampaignWithEventsTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.cronos.campaignmodule.CreatingCampaignWithEventsTest@64c63c79]" started-at="2024-06-02T11:17:13Z" name="configBS" finished-at="2024-06-02T11:17:13Z" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.cronos.campaignmodule.CreatingCampaignWithEventsTest@64c63c79]" started-at="2024-06-02T11:17:13Z" name="configBC" finished-at="2024-06-02T11:17:16Z" duration-ms="2730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.cronos.campaignmodule.CreatingCampaignWithEventsTest@64c63c79]" started-at="2024-06-02T11:17:16Z" name="configBM" finished-at="2024-06-02T11:17:18Z" duration-ms="2153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="CreatingCampaignWithEventsTest()[pri:0, instance:com.cronos.campaignmodule.CreatingCampaignWithEventsTest@64c63c79]" started-at="2024-06-02T11:17:18Z" name="CreatingCampaignWithEventsTest" finished-at="2024-06-02T11:17:25Z" duration-ms="7129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatingCampaignWithEventsTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.cronos.campaignmodule.CreatingCampaignWithEventsTest@64c63c79]" started-at="2024-06-02T11:17:25Z" name="configAM" finished-at="2024-06-02T11:17:25Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.cronos.campaignmodule.CreatingCampaignWithEventsTest@64c63c79]" started-at="2024-06-02T11:17:25Z" name="configAC" finished-at="2024-06-02T11:17:25Z" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.cronos.campaignmodule.CreatingCampaignWithEventsTest@64c63c79]" started-at="2024-06-02T11:17:25Z" name="configAS" finished-at="2024-06-02T11:17:25Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.cronos.campaignmodule.CreatingCampaignWithEventsTest -->
+=======
+  <suite started-at="2024-06-01T15:48:53 IST" name="Default suite" finished-at="2024-06-01T15:49:03 IST" duration-ms="9239">
+    <groups>
+    </groups>
+    <test started-at="2024-06-01T15:48:53 IST" name="Default test" finished-at="2024-06-01T15:49:03 IST" duration-ms="9239">
+      <class name="com.CRONOS.OpportunitiesModule.CreateOppertunityWithORGandGroupTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.CRONOS.OpportunitiesModule.CreateOppertunityWithORGandGroupTest@6771beb3]" started-at="2024-06-01T15:48:53 IST" name="configBS" finished-at="2024-06-01T15:48:53 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.CRONOS.OpportunitiesModule.CreateOppertunityWithORGandGroupTest@6771beb3]" started-at="2024-06-01T15:48:53 IST" name="configBC" finished-at="2024-06-01T15:48:56 IST" duration-ms="3010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.CRONOS.OpportunitiesModule.CreateOppertunityWithORGandGroupTest@6771beb3]" started-at="2024-06-01T15:48:56 IST" name="configBM" finished-at="2024-06-01T15:48:58 IST" duration-ms="2120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="CreateOppertunityWithORGandGroup()[pri:0, instance:com.CRONOS.OpportunitiesModule.CreateOppertunityWithORGandGroupTest@6771beb3]" started-at="2024-06-01T15:48:58 IST" name="CreateOppertunityWithORGandGroup" finished-at="2024-06-01T15:49:02 IST" duration-ms="3285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOppertunityWithORGandGroup -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.CRONOS.OpportunitiesModule.CreateOppertunityWithORGandGroupTest@6771beb3]" started-at="2024-06-01T15:49:02 IST" name="configAM" finished-at="2024-06-01T15:49:02 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.CRONOS.OpportunitiesModule.CreateOppertunityWithORGandGroupTest@6771beb3]" started-at="2024-06-01T15:49:02 IST" name="configAC" finished-at="2024-06-01T15:49:03 IST" duration-ms="744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.CRONOS.OpportunitiesModule.CreateOppertunityWithORGandGroupTest@6771beb3]" started-at="2024-06-01T15:49:03 IST" name="configAS" finished-at="2024-06-01T15:49:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.CRONOS.OpportunitiesModule.CreateOppertunityWithORGandGroupTest -->
+>>>>>>> upstream/master
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

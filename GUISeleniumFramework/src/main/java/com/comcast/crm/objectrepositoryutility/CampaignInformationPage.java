@@ -36,6 +36,10 @@ public class CampaignInformationPage {
 	public WebElement getVerifycampaignheadermsg() {
 		return verifycampaignheadermsg;
 	}
-
+    
+	public WebElement getAddEvent()
+	{
+		return addevents;
+	}
 
 }
