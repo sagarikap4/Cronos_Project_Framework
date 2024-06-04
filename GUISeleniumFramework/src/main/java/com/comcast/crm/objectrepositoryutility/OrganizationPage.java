@@ -41,5 +41,20 @@ public class OrganizationPage {
 	 {
 		return CreateOrganizationSaveButton;
 	 }
-
+	 /**
+	  * Element to verify organization title
+	  */
+	 
+	 @FindBy(xpath="(//a[text()='Organizations'])[2]")
+	 private WebElement organizationTitle;
+	 public WebElement getorganizationTitle()
+	 {
+		return organizationTitle;
+	 }
+	 @FindBy(xpath="//span[contains(text(),'Creating New Organization')]")
+	 private WebElement Createorgtitle;
+	 public WebElement getCreateorgtitle()
+	 {
+		return Createorgtitle;
+	 }
 }

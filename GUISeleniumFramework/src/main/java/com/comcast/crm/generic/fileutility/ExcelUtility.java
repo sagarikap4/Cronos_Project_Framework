@@ -28,7 +28,23 @@ public class ExcelUtility {
 		
 		FileInputStream fis = new FileInputStream("./testdata/testScriptdata.xlsx");
 		Workbook wb =  WorkbookFactory.create(fis);
-	    String data = wb.getSheet(sheetName).getRow(rowNum).getCell(celNum).getStringCellValue();
+	    String data = wb.getSheet(sheetName).getRow(rowNum).getCell(celNum).toString();
+	    wb.close();
+		return data;
+	}
+	/**
+	 * read data from Excel for numeric value
+	 * @param sheetName
+	 * @param rowNum
+	 * @param celNum
+	 * @return
+	 * @throws Throwable
+	 */
+   public double getDataFromExcelForNumber(String sheetName , int rowNum , int celNum) throws Throwable {
+		
+		FileInputStream fis = new FileInputStream("./testdata/testScriptdata.xlsx");
+		Workbook wb =  WorkbookFactory.create(fis);
+	    double data = wb.getSheet(sheetName).getRow(rowNum).getCell(celNum).getNumericCellValue();
 	    wb.close();
 		return data;
 	}

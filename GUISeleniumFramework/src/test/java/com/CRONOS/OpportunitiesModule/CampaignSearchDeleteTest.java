@@ -9,8 +9,8 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.Status;
 import com.comcast.crm.generic.basetest.BaseClass;
 import com.comcast.crm.generic.webdriverutility.UtilityClassObject;
-import com.comcast.crm.objectrepositoryutility.CampaignEventsPage;
-import com.comcast.crm.objectrepositoryutility.CampaignInformationPage;
+//import com.comcast.crm.objectrepositoryutility.CampaignEventsPage;
+//import com.comcast.crm.objectrepositoryutility.CampaignInformationPage;
 import com.comcast.crm.objectrepositoryutility.CampaignPage;
 import com.comcast.crm.objectrepositoryutility.CreateCampaignPage;
 import com.comcast.crm.objectrepositoryutility.HomePage;
@@ -22,8 +22,8 @@ public class CampaignSearchDeleteTest extends BaseClass {
 		HomePage hp = new HomePage(driver);
 		CampaignPage cp=new CampaignPage(driver);
 		CreateCampaignPage ccp=new CreateCampaignPage(driver);
-		CampaignInformationPage cip=new CampaignInformationPage(driver);
-		CampaignEventsPage ce=new CampaignEventsPage(driver);
+		//CampaignInformationPage cip=new CampaignInformationPage(driver);
+		//CampaignEventsPage ce=new CampaignEventsPage(driver);
 		
 		hp.getMoreLink().click();
 		UtilityClassObject.getTest().log(Status.INFO,"Clicked on More Link");

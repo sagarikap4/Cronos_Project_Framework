@@ -74,4 +74,32 @@ public class OpportunitiesPage extends WebDriverUtility {
 	 {
 		return CreateOpportunitySaveButton;
 	 }
+     /**
+      * WebElement Excepted close date
+      */
+     @FindBy(xpath="//input[@name='closingdate']")
+     private WebElement Exceptedclosedate;
+     
+     public WebElement getExceptedclosedate()
+	 {
+		return Exceptedclosedate;
+	 }
+     /**
+      * WebElement for opportunity text
+      */
+     @FindBy(xpath="(//a[text()='Opportunities'])[2]")
+     private WebElement OpportunityText;
+     public WebElement getOpportunityText()
+	 {
+		return OpportunityText;
+	 }
+     /**
+      * WebElement for create opportunity text
+      */
+     @FindBy(xpath=" //span[contains(text(),'Creating New Opportunity')]")
+     private WebElement CreatingNewOpportunityText;
+     public WebElement getCreatingNewOpportunityText()
+	 {
+		return CreatingNewOpportunityText;
+	 }
 }
